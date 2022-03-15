@@ -10,11 +10,17 @@ html{
 }
 
 li, a { 
+  
     font-weight: 500;
     font-size: 24px ;
     text-decoration: none;
-    padding-left: 100px;
     color: green;
+    margin-right: 100px;
+    box-sizing: border-box ;
+    border-color: solid 20px white;
+
+   
+    
     
 }
 
@@ -25,9 +31,9 @@ header {
     color: green;
     margin: 0%;
     padding-bottom: 0px;
-    justify-content: space-between;
     border:solid 3px green;
     padding: 10px 5px;
+    justify-content: space-between;
  }
     
 .navbar { 
@@ -37,33 +43,33 @@ header {
   
  .navbar li{ 
     display: inline-block;
-    padding-right: 10px;    
+    padding-right: 10px;  
+    
  
-  
  }
- 
+
+ a:hover{
+     background-color: antiquewhite;
+
+ }
 .hero {
     padding: 0%;
     width: 100%;
-    max-height: 150px ;
+    max-height: 250px ;
 }
   
 aside {
-    margin: 0 20px 0 0;
-    padding-right: 20px;
-    padding: 20px ;
-    clear: both;
-    float: right;
-    width: 20%;
+
+    
     background-color: black;
     color: green;
-    font-size: 20px;  
+    font-size: 26px;  
     line-height: 1.5;
     border:solid 3px green ;
 }
 .pic {
     display: block;
-    height: 250px ;
+    height: 300px ;
     margin-left: auto;
     margin-right: auto;
   
