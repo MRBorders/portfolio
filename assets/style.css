@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0%;
    
-    
+    /* creates a scroll animation for better user experience */
 }
 html{ 
     scroll-behavior: smooth;
@@ -24,7 +24,7 @@ li, a {
     
     
 }
-
+ /* sets spacing for header and Ul nav links */
 header {
     display: flex;
     flex-grow: wrap;
@@ -37,7 +37,7 @@ header {
     padding: 10px 5px;
     justify-content: space-between;
  }
-    
+    /* gets rid of bulleted list */
 .navbar { 
     list-style-type: style none;
 
@@ -67,7 +67,7 @@ text-align: center;
  color: black;
  font-size: 40px;
  } 
-  
+  /* format for about me section */
 .aboutme {
     background-color: lightblue;
     color: black;
@@ -75,6 +75,7 @@ text-align: center;
     line-height: 1.5;
     border:solid 3px black ;
 }
+/* selfie image */
 .pic {
     display: block;
     height: 300px ;
